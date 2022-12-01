@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "aoc22"
+version = "0.1.0"
+description = "Advent of Code '22 in Python"
+authors = ["ev0ha"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pytest = "^7.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
